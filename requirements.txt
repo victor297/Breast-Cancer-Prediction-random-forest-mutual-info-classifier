@@ -1,6 +1,6 @@
 pandas 
 joblib 
-numpy 
+numpy==1.26.4
 matplotlib
-scikit-learn
-seaborn
+scikit-learn==1.0.2
+seaborn==0.13.2
