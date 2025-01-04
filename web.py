@@ -7,12 +7,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the saved model and top features
-model = joblib.load('random_forest_model.pkl')
+# model = joblib.load('random_forest_model.pkl')
+model = joblib.load('naive_bayes_model.pkl')
 top_features = joblib.load('features.pkl')
 
 # Streamlit app
 st.title("Breast Cancer Prediction")
-st.write("By Falebita Temidayo Janet  20/47cs/01160 and Ibrahim Moshood 20/47cs/01237")
+st.write("Project By --------")
 
 # Option to upload CSV or input manually
 st.write("**Choose an input method:**")
