@@ -13,7 +13,7 @@ top_features = joblib.load('features.pkl')
 
 # Streamlit app
 st.title("Breast Cancer Prediction")
-st.write("Project By --------")
+st.write("Project By Akpan Godwin Edidiong 22D/7HCS/418")
 
 # Option to upload CSV or input manually
 st.write("**Choose an input method:**")
